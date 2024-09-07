@@ -1,0 +1,21 @@
+{
+	"name": "theater_schedules",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "tsx src/main.ts",
+		"dev": "node --import tsx --env-file=./.env src/main.ts",
+		"check": "biome ci src"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@biomejs/biome": "1.8.3",
+		"@types/node": "^22.5.3",
+		"playwright": "^1.46.1",
+		"tsx": "^4.19.0",
+		"typescript": "^5.5.4"
+	}
+}
