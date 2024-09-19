@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
-    "lib": ["dom", "ESNext"]
+    "lib": ["dom", "ESNext"],
+    "jsx": "react-jsx",
+    "jsxImportSource": "jsx-slack"
   }
 }
